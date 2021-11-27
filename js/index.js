@@ -1,8 +1,8 @@
 // 地図表示時の中心座標
-var init_center_coords = [141.347899, 43.063968];
+var init_center_coords = [137.2114891,36.6928096];
 
 // Bing APIのキー
-var bing_api_key = 'AhGQykUKW2-u1PwVjLwQkSA_1rCTFESEC7bCZ0MBrnzVbVy7KBHsmLgwW_iRJg17';
+//var bing_api_key = '';
 
 // map
 var map;
@@ -15,15 +15,15 @@ var moveToList = [];
 
 // マップサーバ一覧
 var mapServerList = {
-	'bing-road': {
-		label: "標準(Bing)",
-		source_type: "bing",
-		source: new ol.source.BingMaps({
-			culture: 'ja-jp',
-			key: bing_api_key,
-			imagerySet: 'Road',
-		})
-	},
+//	'bing-road': {
+//		label: "標準(Bing)",
+//		source_type: "bing",
+//		source: new ol.source.BingMaps({
+//			culture: 'ja-jp',
+//			key: bing_api_key,
+//			imagerySet: 'Road',
+//		})
+//	},
 	'mierune-mono': {
 		label: "白地図",
 		source_type: "xyz",
@@ -61,15 +61,15 @@ var mapServerList = {
 			]
 		})
 	},
-	'bing-aerial': {
-		label: "写真",
-		source_type: "bing",
-		source: new ol.source.BingMaps({
-			culture: 'ja-jp',
-			key: bing_api_key,
-			imagerySet: 'Aerial',
-		})
-	}
+//	'bing-aerial': {
+//		label: "写真",
+//		source_type: "bing",
+//		source: new ol.source.BingMaps({
+//			culture: 'ja-jp',
+//			key: bing_api_key,
+//			imagerySet: 'Aerial',
+//		})
+//	}
 };
 
 /**
@@ -98,7 +98,7 @@ $('#mainPage').on('pageshow', function() {
 	// 地図レイヤー定義
 	var papamamap = new Papamamap();
 	papamamap.viewCenter = init_center_coords;
-	papamamap.generate(mapServerList['bing-road']);
+	papamamap.generate(mapServerList['cyberjapn-pale']);
 	map = papamamap.map;
 
 	// 保育施設の読み込みとレイヤーの追加

@@ -29,6 +29,7 @@ Papamamap.prototype.generate = function(mapServerListItem)
             new ol.layer.Group({
                 layers:[
                     // 中学校区ポリゴン
+/*
                     new ol.layer.Vector({
                         source: new ol.source.GeoJSON({
                             projection: 'EPSG:3857',
@@ -37,6 +38,7 @@ Papamamap.prototype.generate = function(mapServerListItem)
                         name: 'layerMiddleSchool',
                         style: middleSchoolStyleFunction,
                     }),
+*/
                     // 中学校区位置
                     new ol.layer.Vector({
                         source: new ol.source.GeoJSON({
@@ -52,7 +54,8 @@ Papamamap.prototype.generate = function(mapServerListItem)
             // 小学校区レイヤーグループ
             new ol.layer.Group({
                 layers:[
-                     // 小学校区ポリゴン
+/*                     
+                    // 小学校区ポリゴン
                      new ol.layer.Vector({
                          source: new ol.source.GeoJSON({
                              projection: 'EPSG:3857',
@@ -61,6 +64,7 @@ Papamamap.prototype.generate = function(mapServerListItem)
                          name: 'layerElementarySchool',
                          style: elementaryStyleFunction,
                      }),
+*/
                      // 小学校区位置
                      new ol.layer.Vector({
                          source: new ol.source.GeoJSON({
@@ -519,10 +523,12 @@ Papamamap.prototype.drawCenterCircle = function(radius, moveToPixel)
 
     // 円の内部に施設が含まれるかチェック
     _features = nurseryFacilities.features.filter(function(item,idx){
-        coordinate = ol.proj.transform(item.geometry.coordinates, 'EPSG:4326', 'EPSG:3857');
-        if(ol.extent.containsCoordinate(extent, coordinate))
-            return true;
-        });
+        if (item.geometry != null) {
+            coordinate = ol.proj.transform(item.geometry.coordinates, 'EPSG:4326', 'EPSG:3857');
+            if(ol.extent.containsCoordinate(extent, coordinate))
+                return true;
+        }
+        } );
     for(var i=0; i < _features.length; i++) {
         console.log(_features[i].properties['名称']);
     }
