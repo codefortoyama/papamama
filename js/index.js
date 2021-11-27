@@ -2,7 +2,7 @@
 var init_center_coords = [137.2114891,36.6928096];
 
 // Bing APIのキー
-//var bing_api_key = '';
+var bing_api_key = 'AvqAt3HWsLhsevHgU1NdfohdzgU0otd5gIzYzJx9s9GrZchkObNwCEIdOh2pjdzY';
 
 // map
 var map;
@@ -15,15 +15,15 @@ var moveToList = [];
 
 // マップサーバ一覧
 var mapServerList = {
-//	'bing-road': {
-//		label: "標準(Bing)",
-//		source_type: "bing",
-//		source: new ol.source.BingMaps({
-//			culture: 'ja-jp',
-//			key: bing_api_key,
-//			imagerySet: 'Road',
-//		})
-//	},
+	'bing-road': {
+		label: "標準(Bing)",
+		source_type: "bing",
+		source: new ol.source.BingMaps({
+			culture: 'ja-jp',
+			key: bing_api_key,
+			imagerySet: 'Road',
+		})
+	},
 	'mierune-mono': {
 		label: "白地図",
 		source_type: "xyz",
@@ -61,15 +61,15 @@ var mapServerList = {
 			]
 		})
 	},
-//	'bing-aerial': {
-//		label: "写真",
-//		source_type: "bing",
-//		source: new ol.source.BingMaps({
-//			culture: 'ja-jp',
-//			key: bing_api_key,
-//			imagerySet: 'Aerial',
-//		})
-//	}
+	'bing-aerial': {
+		label: "写真",
+		source_type: "bing",
+		source: new ol.source.BingMaps({
+			culture: 'ja-jp',
+			key: bing_api_key,
+			imagerySet: 'Aerial',
+		})
+	}
 };
 
 /**
