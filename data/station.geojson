@@ -1,509 +1,102 @@
 {
     "type": "FeatureCollection",
-    "crs": {
-        "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
-    },
+    "name": "station",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
     "features": [
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "1条線", "company": "札幌市", "station_name": "西4丁目", "shubetsu": "札幌市電", "lon": 141.351845, "lat": 43.058895 },
-            "geometry": { "type": "Point", "coordinates": [ 141.351845, 43.058895 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "1条線", "company": "札幌市", "station_name": "西8丁目", "shubetsu": "札幌市電", "lon": 141.346720, "lat": 43.058180 },
-                "geometry": { "type": "Point", "coordinates": [ 141.34672, 43.05818 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "1条線", "company": "札幌市", "station_name": "中央区役所前", "shubetsu": "札幌市電", "lon": 141.341975, "lat": 43.057515 },
-            "geometry": { "type": "Point", "coordinates": [ 141.341975, 43.057515 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "1条線", "company": "札幌市", "station_name": "西15丁目", "shubetsu": "札幌市電", "lon": 141.335225, "lat": 43.056240 },
-            "geometry": { "type": "Point", "coordinates": [ 141.335225, 43.05624 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "西線6条", "shubetsu": "札幌市電", "lon": 141.335035, "lat": 43.051570 },
-            "geometry": { "type": "Point", "coordinates": [ 141.335035, 43.05157 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "西線9条旭山公園通", "shubetsu": "札幌市電", "lon": 141.335460, "lat": 43.048265 },
-            "geometry": { "type": "Point", "coordinates": [ 141.33546, 43.048265 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "西線11条", "shubetsu": "札幌市電", "lon": 141.335870, "lat": 43.044955 },
-            "geometry": { "type": "Point", "coordinates": [ 141.33587, 43.044955 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "西線14条", "shubetsu": "札幌市電", "lon": 141.336435, "lat": 43.040640 },
-            "geometry": { "type": "Point", "coordinates": [ 141.336435, 43.04064 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "西線16条", "shubetsu": "札幌市電", "lon": 141.336845, "lat": 43.037310 },
-            "geometry": { "type": "Point", "coordinates": [ 141.336845, 43.03731 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "ロープウェイ入口", "shubetsu": "札幌市電", "lon": 141.337280, "lat": 43.033965 },
-            "geometry": { "type": "Point", "coordinates": [ 141.33728, 43.033965 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "電車事業所前", "shubetsu": "札幌市電", "lon": 141.337700, "lat": 43.030660 },
-            "geometry": { "type": "Point", "coordinates": [ 141.3377, 43.03066 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻西線", "company": "札幌市", "station_name": "中央図書館前", "shubetsu": "札幌市電", "lon": 141.340080, "lat": 43.030420 },
-            "geometry": { "type": "Point", "coordinates": [ 141.34008, 43.03042 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "石山通", "shubetsu": "札幌市電", "lon": 141.344220, "lat": 43.030710 },
-            "geometry": { "type": "Point", "coordinates": [ 141.34422, 43.03071 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "東屯田通", "shubetsu": "札幌市電", "lon": 141.348835, "lat": 43.031045 },
-            "geometry": { "type": "Point", "coordinates": [ 141.348835, 43.031045 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "幌南小学校前", "shubetsu": "札幌市電", "lon": 141.351910, "lat": 43.032295 },
-            "geometry": { "type": "Point", "coordinates": [ 141.35191, 43.032295 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "山鼻19条", "shubetsu": "札幌市電", "lon": 141.351565, "lat": 43.035060 },
-            "geometry": { "type": "Point", "coordinates": [ 141.351565, 43.03506 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "静修学園前", "shubetsu": "札幌市電", "lon": 141.351115, "lat": 43.038310 },
-            "geometry": { "type": "Point", "coordinates": [ 141.351115, 43.03831 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "行啓通", "shubetsu": "札幌市電", "lon": 141.350670, "lat": 43.041670 },
-            "geometry": { "type": "Point", "coordinates": [ 141.35067, 43.04167 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "中島公園通", "shubetsu": "札幌市電", "lon": 141.350145, "lat": 43.045905 },
-            "geometry": { "type": "Point", "coordinates": [ 141.350145, 43.045905 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "山鼻9条", "shubetsu": "札幌市電", "lon": 141.349765, "lat": 43.049015 },
-            "geometry": { "type": "Point", "coordinates": [ 141.349765, 43.049015 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "東本願寺前", "shubetsu": "札幌市電", "lon": 141.349355, "lat": 43.051710 },
-            "geometry": { "type": "Point", "coordinates": [ 141.349355, 43.05171 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "資生館小学校前", "shubetsu": "札幌市電", "lon": 141.349260, "lat": 43.055115 },
-            "geometry": { "type": "Point", "coordinates": [ 141.34926, 43.055115 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "21", "N02_002": "3", "line": "山鼻線", "company": "札幌市", "station_name": "すすきの", "shubetsu": "札幌市電", "lon": 141.352730, "lat": 43.055560 },
-            "geometry": { "type": "Point", "coordinates": [ 141.35273, 43.05556 ] }
-        },
-
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "宮の沢", "shubetsu": "札幌市営地下鉄", "lon": 141.277760, "lat": 43.089525 },
-            "geometry": { "type": "Point", "coordinates": [ 141.27776, 43.089525 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "発寒南", "shubetsu": "札幌市営地下鉄", "lon": 141.290220, "lat": 43.081530 },
-            "geometry": { "type": "Point", "coordinates": [ 141.29022, 43.08153 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "琴似", "shubetsu": "札幌市営地下鉄", "lon": 141.304445, "lat": 43.075445 },
-            "geometry": { "type": "Point", "coordinates": [ 141.304445, 43.075445 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "二十四軒", "shubetsu": "札幌市営地下鉄", "lon": 141.313605, "lat": 43.070450 },
-            "geometry": { "type": "Point", "coordinates": [ 141.313605, 43.07045 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "西28丁目", "shubetsu": "札幌市営地下鉄", "lon": 141.314565, "lat": 43.060965 },
-            "geometry": { "type": "Point", "coordinates": [ 141.314565, 43.060965 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "円山公園", "shubetsu": "札幌市営地下鉄", "lon": 141.319515, "lat": 43.055735 },
-            "geometry": { "type": "Point", "coordinates": [ 141.319515, 43.055735 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "西18丁目", "shubetsu": "札幌市営地下鉄", "lon": 141.330405, "lat": 43.057240 },
-            "geometry": { "type": "Point", "coordinates": [ 141.330405, 43.05724 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "西11丁目", "shubetsu": "札幌市営地下鉄", "lon": 141.341395, "lat": 43.058685 },
-            "geometry": { "type": "Point", "coordinates": [ 141.341395, 43.058685 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "大通", "shubetsu": "札幌市営地下鉄", "lon": 141.352314, "lat": 43.060094 },
-            "geometry": { "type": "Point", "coordinates": [ 141.35231444274581, 43.060094119435995 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "バスセンター前", "shubetsu": "札幌市営地下鉄", "lon": 141.361925, "lat": 43.061525 },
-            "geometry": { "type": "Point", "coordinates": [ 141.361925, 43.061525 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "菊水", "shubetsu": "札幌市営地下鉄", "lon": 141.372755, "lat": 43.057260 },
-            "geometry": { "type": "Point", "coordinates": [ 141.372755, 43.05726 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "東札幌", "shubetsu": "札幌市営地下鉄", "lon": 141.384737, "lat": 43.051772 },
-            "geometry": { "type": "Point", "coordinates": [ 141.38473746866578, 43.051772151724087 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "白石", "shubetsu": "札幌市営地下鉄", "lon": 141.395705, "lat": 43.046350 },
-            "geometry": { "type": "Point", "coordinates": [ 141.395705, 43.04635 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "南郷7丁目", "shubetsu": "札幌市営地下鉄", "lon": 141.410970, "lat": 43.040265 },
-            "geometry": { "type": "Point", "coordinates": [ 141.41097, 43.040265 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "南郷13丁目", "shubetsu": "札幌市営地下鉄", "lon": 141.422965, "lat": 43.035725 },
-            "geometry": { "type": "Point", "coordinates": [ 141.422965, 43.035725 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "南郷18丁目", "shubetsu": "札幌市営地下鉄", "lon": 141.435165, "lat": 43.030330 },
-            "geometry": { "type": "Point", "coordinates": [ 141.435165, 43.03033 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "大谷地", "shubetsu": "札幌市営地下鉄", "lon": 141.453145, "lat": 43.027930 },
-            "geometry": { "type": "Point", "coordinates": [ 141.453145, 43.02793 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "ひばりが丘", "shubetsu": "札幌市営地下鉄", "lon": 141.464470, "lat": 43.032105 },
-            "geometry": { "type": "Point", "coordinates": [ 141.46447, 43.032105 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東西線", "company": "札幌市", "station_name": "新さっぽろ", "shubetsu": "札幌市営地下鉄", "lon": 141.474015, "lat": 43.038930 },
-            "geometry": { "type": "Point", "coordinates": [ 141.474015, 43.03893 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "栄町", "shubetsu": "札幌市営地下鉄", "lon": 141.367145, "lat": 43.113020 },
-            "geometry": { "type": "Point", "coordinates": [ 141.367145, 43.11302 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "新道東", "shubetsu": "札幌市営地下鉄", "lon": 141.369151, "lat": 43.104825 },
-            "geometry": { "type": "Point", "coordinates": [ 141.36915051910023, 43.104825118505701 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "元町", "shubetsu": "札幌市営地下鉄", "lon": 141.371785, "lat": 43.094040 },
-            "geometry": { "type": "Point", "coordinates": [ 141.371785, 43.09404 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "環状通東", "shubetsu": "札幌市営地下鉄", "lon": 141.374425, "lat": 43.082380 },
-            "geometry": { "type": "Point", "coordinates": [ 141.374425, 43.08238 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "東区役所前", "shubetsu": "札幌市営地下鉄", "lon": 141.365270, "lat": 43.078215 },
-            "geometry": { "type": "Point", "coordinates": [ 141.36527, 43.078215 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "北13条東", "shubetsu": "札幌市営地下鉄", "lon": 141.354935, "lat": 43.076825 },
-            "geometry": { "type": "Point", "coordinates": [ 141.354935, 43.076825 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "さっぽろ", "shubetsu": "札幌市営地下鉄", "lon": 141.353885, "lat": 43.066240 },
-            "geometry": { "type": "Point", "coordinates": [ 141.353885, 43.06624 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "大通", "shubetsu": "札幌市営地下鉄", "lon": 141.355302, "lat": 43.060750 },
-            "geometry": { "type": "Point", "coordinates": [ 141.35530181358186, 43.06075045108124 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "豊水すすきの", "shubetsu": "札幌市営地下鉄", "lon": 141.356990, "lat": 43.054095 },
-            "geometry": { "type": "Point", "coordinates": [ 141.35699, 43.054095 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "学園前", "shubetsu": "札幌市営地下鉄", "lon": 141.368955, "lat": 43.047710 },
-            "geometry": { "type": "Point", "coordinates": [ 141.368955, 43.04771 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "豊平公園", "shubetsu": "札幌市営地下鉄", "lon": 141.376165, "lat": 43.042110 },
-            "geometry": { "type": "Point", "coordinates": [ 141.376165, 43.04211 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "美園", "shubetsu": "札幌市営地下鉄", "lon": 141.385788, "lat": 43.036150 },
-            "geometry": { "type": "Point", "coordinates": [ 141.38578813253523, 43.036150426378256 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "月寒中央", "shubetsu": "札幌市営地下鉄", "lon": 141.396707, "lat": 43.029971 },
-            "geometry": { "type": "Point", "coordinates": [ 141.39670707810473, 43.029971293000862 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "東豊線", "company": "札幌市", "station_name": "福住", "shubetsu": "札幌市営地下鉄", "lon": 141.402885, "lat": 43.021825 },
-            "geometry": { "type": "Point", "coordinates": [ 141.402885, 43.021825 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "麻生", "shubetsu": "札幌市営地下鉄", "lon": 141.338480, "lat": 43.108340 },
-            "geometry": { "type": "Point", "coordinates": [ 141.33848, 43.10834 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "北34条", "shubetsu": "札幌市営地下鉄", "lon": 141.342130, "lat": 43.100105 },
-            "geometry": { "type": "Point", "coordinates": [ 141.34213, 43.100105 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "北24条", "shubetsu": "札幌市営地下鉄", "lon": 141.344825, "lat": 43.089610 },
-            "geometry": { "type": "Point", "coordinates": [ 141.344825, 43.08961 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "北18条", "shubetsu": "札幌市営地下鉄", "lon": 141.346755, "lat": 43.081645 },
-            "geometry": { "type": "Point", "coordinates": [ 141.346755, 43.081645 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "北12条", "shubetsu": "札幌市営地下鉄", "lon": 141.348495, "lat": 43.074700 },
-            "geometry": { "type": "Point", "coordinates": [ 141.348495, 43.0747 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "さっぽろ", "shubetsu": "札幌市営地下鉄", "lon": 141.350665, "lat": 43.065860 },
-            "geometry": { "type": "Point", "coordinates": [ 141.350665, 43.06586 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "大通", "shubetsu": "札幌市営地下鉄", "lon": 141.352146, "lat": 43.060006 },
-            "geometry": { "type": "Point", "coordinates": [ 141.352145656223, 43.060006454153623 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "すすきの", "shubetsu": "札幌市営地下鉄", "lon": 141.353365, "lat": 43.055300 },
-            "geometry": { "type": "Point", "coordinates": [ 141.353365, 43.0553 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "中島公園", "shubetsu": "札幌市営地下鉄", "lon": 141.355055, "lat": 43.048475 },
-            "geometry": { "type": "Point", "coordinates": [ 141.355055, 43.048475 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "幌平橋", "shubetsu": "札幌市営地下鉄", "lon": 141.355835, "lat": 43.040220 },
-            "geometry": { "type": "Point", "coordinates": [ 141.355835, 43.04022 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "中の島", "shubetsu": "札幌市営地下鉄", "lon": 141.361195, "lat": 43.037450 },
-            "geometry": { "type": "Point", "coordinates": [ 141.361195, 43.03745 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "平岸", "shubetsu": "札幌市営地下鉄", "lon": 141.368370, "lat": 43.034620 },
-            "geometry": { "type": "Point", "coordinates": [ 141.36837, 43.03462 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "南平岸", "shubetsu": "札幌市営地下鉄", "lon": 141.371357, "lat": 43.026731 },
-            "geometry": { "type": "Point", "coordinates": [ 141.37135737844133, 43.026730570850354 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "澄川", "shubetsu": "札幌市営地下鉄", "lon": 141.367360, "lat": 43.016825 },
-            "geometry": { "type": "Point", "coordinates": [ 141.36736, 43.016825 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "自衛隊前", "shubetsu": "札幌市営地下鉄", "lon": 141.364915, "lat": 43.006005 },
-            "geometry": { "type": "Point", "coordinates": [ 141.364915, 43.006005 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "16", "N02_002": "3", "line": "南北線", "company": "札幌市", "station_name": "真駒内", "shubetsu": "札幌市営地下鉄", "lon": 141.358545, "lat": 42.991180 },
-            "geometry": { "type": "Point", "coordinates": [ 141.358545, 42.99118 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "ほしみ", "shubetsu": "JR北海道", "lon": 141.191500, "lat": 43.133460 },
-            "geometry": { "type": "Point", "coordinates": [ 141.1915, 43.13346 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "星置", "shubetsu": "JR北海道", "lon": 141.210645, "lat": 43.132275 },
-            "geometry": { "type": "Point", "coordinates": [ 141.210645, 43.132275 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "稲穂", "shubetsu": "JR北海道", "lon": 141.222440, "lat": 43.128400 },
-            "geometry": { "type": "Point", "coordinates": [ 141.22244, 43.1284 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "手稲", "shubetsu": "JR北海道", "lon": 141.243850, "lat": 43.120125 },
-            "geometry": { "type": "Point", "coordinates": [ 141.24385, 43.120125 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "稲積公園", "shubetsu": "JR北海道", "lon": 141.256760, "lat": 43.112310 },
-            "geometry": { "type": "Point", "coordinates": [ 141.25676, 43.11231 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "発寒", "shubetsu": "JR北海道", "lon": 141.276630, "lat": 43.100185 },
-            "geometry": { "type": "Point", "coordinates": [ 141.27663, 43.100185 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "発寒中央", "shubetsu": "JR北海道", "lon": 141.294575, "lat": 43.089265 },
-            "geometry": { "type": "Point", "coordinates": [ 141.294575, 43.089265 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "琴似", "shubetsu": "JR北海道", "lon": 141.307397, "lat": 43.081506 },
-            "geometry": { "type": "Point", "coordinates": [ 141.30739737647892, 43.081505819995279 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "桑園", "shubetsu": "JR北海道", "lon": 141.331919, "lat": 43.070748 },
-            "geometry": { "type": "Point", "coordinates": [ 141.33191909768894, 43.070747906039976 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "札幌", "shubetsu": "JR北海道", "lon": 141.350775, "lat": 43.068750 },
-            "geometry": { "type": "Point", "coordinates": [ 141.350775, 43.06875 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "苗穂", "shubetsu": "JR北海道", "lon": 141.376405, "lat": 43.068770 },
-            "geometry": { "type": "Point", "coordinates": [ 141.376405, 43.06877 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "白石", "shubetsu": "JR北海道", "lon": 141.414070, "lat": 43.054760 },
-            "geometry": { "type": "Point", "coordinates": [ 141.41407, 43.05476 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "厚別", "shubetsu": "JR北海道", "lon": 141.463235, "lat": 43.044975 },
-            "geometry": { "type": "Point", "coordinates": [ 141.463235, 43.044975 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "函館線", "company": "北海道旅客鉄道", "station_name": "森林公園", "shubetsu": "JR北海道", "lon": 141.481525, "lat": 43.056445 },
-            "geometry": { "type": "Point", "coordinates": [ 141.481525, 43.056445 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "桑園", "shubetsu": "JR北海道", "lon": 141.331919, "lat": 43.070748 },
-            "geometry": { "type": "Point", "coordinates": [ 141.33191909768894, 43.070747906039976 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "八軒", "shubetsu": "JR北海道", "lon": 141.319168, "lat": 43.086219 },
-            "geometry": { "type": "Point", "coordinates": [ 141.31916823523338, 43.086218823970775 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "新川", "shubetsu": "JR北海道", "lon": 141.323735, "lat": 43.098575 },
-            "geometry": { "type": "Point", "coordinates": [ 141.323735, 43.098575 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "新琴似", "shubetsu": "JR北海道", "lon": 141.335140, "lat": 43.113045 },
-            "geometry": { "type": "Point", "coordinates": [ 141.33514, 43.113045 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "太平", "shubetsu": "JR北海道", "lon": 141.349260, "lat": 43.123925 },
-            "geometry": { "type": "Point", "coordinates": [ 141.34926, 43.123925 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "百合が原", "shubetsu": "JR北海道", "lon": 141.360685, "lat": 43.131400 },
-            "geometry": { "type": "Point", "coordinates": [ 141.360685, 43.1314 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "篠路", "shubetsu": "JR北海道", "lon": 141.364240, "lat": 43.145080 },
-            "geometry": { "type": "Point", "coordinates": [ 141.36424, 43.14508 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "拓北", "shubetsu": "JR北海道", "lon": 141.381085, "lat": 43.155505 },
-            "geometry": { "type": "Point", "coordinates": [ 141.381085, 43.155505 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "あいの里教育大", "shubetsu": "JR北海道", "lon": 141.398765, "lat": 43.155115 },
-            "geometry": { "type": "Point", "coordinates": [ 141.398765, 43.155115 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "札沼線", "company": "北海道旅客鉄道", "station_name": "あいの里公園", "shubetsu": "JR北海道", "lon": 141.413030, "lat": 43.160900 },
-            "geometry": { "type": "Point", "coordinates": [ 141.41303, 43.1609 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "千歳線", "company": "北海道旅客鉄道", "station_name": "白石", "shubetsu": "JR北海道", "lon": 141.414070, "lat": 43.054760 },
-            "geometry": { "type": "Point", "coordinates": [ 141.41407, 43.05476 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "千歳線", "company": "北海道旅客鉄道", "station_name": "平和", "shubetsu": "JR北海道", "lon": 141.438000, "lat": 43.046995 },
-            "geometry": { "type": "Point", "coordinates": [ 141.438, 43.046995 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "千歳線", "company": "北海道旅客鉄道", "station_name": "新札幌", "shubetsu": "JR北海道", "lon": 141.472515, "lat": 43.038685 },
-            "geometry": { "type": "Point", "coordinates": [ 141.472515, 43.038685 ] }
-        },
-        {
-            "type": "Feature",
-            "properties": { "Id": 0, "N02_001": "11", "N02_002": "2", "line": "千歳線", "company": "北海道旅客鉄道", "station_name": "上野幌", "shubetsu": "JR北海道", "lon": 141.487136, "lat": 43.016241 },
-            "geometry": { "type": "Point", "coordinates": [ 141.48713607588749, 43.016240599813379 ] }
-        }
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "猪谷", "shubetsu": "JR西日本", "lon": 137.237975, "lat": 36.471625, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.237975, 36.471625 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "楡原", "shubetsu": "JR西日本", "lon": 137.22872, "lat": 36.529323, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.22872, 36.529323 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "笹津", "shubetsu": "JR西日本", "lon": 137.211437, "lat": 36.562129, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.211437, 36.562129 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "東八尾", "shubetsu": "JR西日本", "lon": 137.174978, "lat": 36.589645, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.174978, 36.589645 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "越中八尾", "shubetsu": "JR西日本", "lon": 137.138379, "lat": 36.591391, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.138379, 36.591391 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "千里", "shubetsu": "JR西日本", "lon": 137.132396, "lat": 36.634678, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "N02_001" }, "geometry": { "type": "Point", "coordinates": [ 137.132396, 36.634678 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "速星", "shubetsu": "JR西日本", "lon": 137.160428, "lat": 36.664135, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.160428, 36.664135 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "婦中鵜坂", "shubetsu": "JR西日本", "lon": 137.167625, "lat": 36.676084, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "line" }, "geometry": { "type": "Point", "coordinates": [ 137.167625, 36.676084 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "JR高山本線", "company": "JR西日本", "station_name": "西富山", "shubetsu": "JR西日本", "lon": 137.177029, "lat": 36.699331, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "company" }, "geometry": { "type": "Point", "coordinates": [ 137.177029, 36.699331 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "ＪR北陸新幹線", "company": "JR西日本", "station_name": "富山", "shubetsu": "JR西日本", "lon": 137.213091, "lat": 36.701384, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "station_name" }, "geometry": { "type": "Point", "coordinates": [ 137.213091, 36.701384 ] } },
+    { "type": "Feature", "properties": { "N02_001": 11, "N02_002": 1, "line": "ＪR北陸新幹線", "company": "JR西日本", "station_name": "新高岡", "shubetsu": "JR西日本", "lon": 137.010459, "lat": 36.727004, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "shubetsu" }, "geometry": { "type": "Point", "coordinates": [ 137.010459, 36.727004 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "電鉄富山", "shubetsu": "富山地方鉄道", "lon": 137.214163, "lat": 36.700757, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "lon" }, "geometry": { "type": "Point", "coordinates": [ 137.214163, 36.700757 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "稲荷町", "shubetsu": "富山地方鉄道", "lon": 137.231247, "lat": 36.696597, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "lat" }, "geometry": { "type": "Point", "coordinates": [ 137.231247, 36.696597 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "新庄田中", "shubetsu": "富山地方鉄道", "lon": 137.241417, "lat": 36.697972, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.241417, 36.697972 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "東新庄", "shubetsu": "富山地方鉄道", "lon": 137.253021, "lat": 36.698644, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "geometry" }, "geometry": { "type": "Point", "coordinates": [ 137.253021, 36.698644 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "越中荏原", "shubetsu": "富山地方鉄道", "lon": 137.266222, "lat": 36.698978, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": "type" }, "geometry": { "type": "Point", "coordinates": [ 137.266222, 36.698978 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "越中三郷", "shubetsu": "富山地方鉄道", "lon": 137.290792, "lat": 36.703309, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.290792, 36.703309 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "新相ノ木", "shubetsu": "富山地方鉄道", "lon": 137.342278, "lat": 36.703128, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.342278, 36.703128 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "新黒部", "shubetsu": "富山地方鉄道", "lon": 137.4801774, "lat": 36.87316273, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.4801774, 36.87316273 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "釜ヶ淵", "shubetsu": "富山地方鉄道", "lon": 137.319288, "lat": 36.633317, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.319288, 36.633317 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "有峰口", "shubetsu": "富山地方鉄道", "lon": 137.380218, "lat": 36.573066, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.380218, 36.573066 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "本宮", "shubetsu": "富山地方鉄道", "lon": 137.395716, "lat": 36.574919, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.395716, 36.574919 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "電鉄富山", "shubetsu": "富山地方鉄道", "lon": 137.214163, "lat": 36.700757, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.214163, 36.700757 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "稲荷町", "shubetsu": "富山地方鉄道", "lon": 137.231247, "lat": 36.696597, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.231247, 36.696597 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "栄町", "shubetsu": "富山地方鉄道", "lon": 137.233333, "lat": 36.691389, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.233333, 36.691389 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "不二越", "shubetsu": "富山地方鉄道", "lon": 137.232453, "lat": 36.687848, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.232453, 36.687848 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "大泉", "shubetsu": "富山地方鉄道", "lon": 137.228979, "lat": 36.677719, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.228979, 36.677719 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "南富山", "shubetsu": "富山地方鉄道", "lon": 137.2205, "lat": 36.670406, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.2205, 36.670406 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "朝菜町", "shubetsu": "富山地方鉄道", "lon": 137.224883, "lat": 36.660579, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.224883, 36.660579 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "上堀", "shubetsu": "富山地方鉄道", "lon": 137.230127, "lat": 36.65338, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.230127, 36.65338 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "小杉", "shubetsu": "富山地方鉄道", "lon": 137.233164, "lat": 36.649433, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.233164, 36.649433 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "布市", "shubetsu": "富山地方鉄道", "lon": 137.235455, "lat": 36.645178, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.235455, 36.645178 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "開発", "shubetsu": "富山地方鉄道", "lon": 137.242854, "lat": 36.636207, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.242854, 36.636207 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "月岡", "shubetsu": "富山地方鉄道", "lon": 137.263341, "lat": 36.626475, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.263341, 36.626475 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "大庄", "shubetsu": "富山地方鉄道", "lon": 137.275618, "lat": 36.619565, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.275618, 36.619565 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "上滝", "shubetsu": "富山地方鉄道", "lon": 137.295564, "lat": 36.609622, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.295564, 36.609622 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "大川寺", "shubetsu": "富山地方鉄道", "lon": 137.308721, "lat": 36.608322, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.308721, 36.608322 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "猪谷", "shubetsu": "富山地方鉄道", "lon": 137.237975, "lat": 36.471625, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.237975, 36.471625 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山地方鉄道線", "company": "富山地方鉄道", "station_name": "南富山駅前", "shubetsu": "富山地方鉄道", "lon": 137.22044, "lat": 36.670484, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.22044, 36.670484 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "丸の内", "shubetsu": "富山地方鉄道", "lon": 137.208896, "lat": 36.692563, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.208896, 36.692563 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "大町", "shubetsu": "富山地方鉄道", "lon": 137.220483, "lat": 36.673066, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.220483, 36.673066 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "国際会議場前", "shubetsu": "富山地方鉄道", "lon": 137.21139, "lat": 36.691654, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.21139, 36.691654 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "堀川小泉", "shubetsu": "富山地方鉄道", "lon": 137.219281, "lat": 36.675647, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.219281, 36.675647 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "大手モール", "shubetsu": "富山地方鉄道", "lon": 137.211334, "lat": 36.689388, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.211334, 36.689388 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "小泉町", "shubetsu": "富山地方鉄道", "lon": 137.217779, "lat": 36.678745, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.217779, 36.678745 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "グランドプラザ前", "shubetsu": "富山地方鉄道", "lon": 137.213386, "lat": 36.688923, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.213386, 36.688923 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "西中野", "shubetsu": "富山地方鉄道", "lon": 137.216663, "lat": 36.680844, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.216663, 36.680844 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "広貫堂前", "shubetsu": "富山地方鉄道", "lon": 137.215934, "lat": 36.683357, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215934, 36.683357 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "中町（西町北）", "shubetsu": "富山地方鉄道", "lon": 137.215722, "lat": 36.690306, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215722, 36.690306 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "上本町", "shubetsu": "富山地方鉄道", "lon": 137.215762, "lat": 36.686282, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215762, 36.686282 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "荒町", "shubetsu": "富山地方鉄道", "lon": 137.215805, "lat": 36.691513, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215805, 36.691513 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "西町", "shubetsu": "富山地方鉄道", "lon": 137.215676, "lat": 36.689001, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215676, 36.689001 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "中町（西町北）", "shubetsu": "富山地方鉄道", "lon": 137.215722, "lat": 36.690306, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215722, 36.690306 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "桜橋", "shubetsu": "富山地方鉄道", "lon": 137.215934, "lat": 36.69461, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215934, 36.69461 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "荒町", "shubetsu": "富山地方鉄道", "lon": 137.215805, "lat": 36.691513, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215805, 36.691513 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "電気ビル前", "shubetsu": "富山地方鉄道", "lon": 137.216105, "lat": 36.697432, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.216105, 36.697432 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "桜橋", "shubetsu": "富山地方鉄道", "lon": 137.215934, "lat": 36.69461, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.215934, 36.69461 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "地鉄ビル前", "shubetsu": "富山地方鉄道", "lon": 137.216105, "lat": 36.698584, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.216105, 36.698584 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "電気ビル前", "shubetsu": "富山地方鉄道", "lon": 137.216105, "lat": 36.697432, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.216105, 36.697432 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "電鉄富山駅・エスタ前", "shubetsu": "富山地方鉄道", "lon": 137.213316, "lat": 36.700236, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.213316, 36.700236 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "富山駅", "shubetsu": "富山地方鉄道", "lon": 137.212864, "lat": 36.70161236, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.212864, 36.70161236 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "地鉄ビル前", "shubetsu": "富山地方鉄道", "lon": 137.216105, "lat": 36.698584, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.216105, 36.698584 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "新富町", "shubetsu": "富山地方鉄道", "lon": 137.211256, "lat": 36.69886, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.211256, 36.69886 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "電鉄富山駅・エスタ前", "shubetsu": "富山地方鉄道", "lon": 137.213316, "lat": 36.700236, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.213316, 36.700236 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "富山駅", "shubetsu": "富山地方鉄道", "lon": 137.2128801, "lat": 36.70161021, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.2128801, 36.70161021 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "県庁前", "shubetsu": "富山地方鉄道", "lon": 137.20984, "lat": 36.695728, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.20984, 36.695728 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "新富町", "shubetsu": "富山地方鉄道", "lon": 137.211256, "lat": 36.69886, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.211256, 36.69886 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "県庁前", "shubetsu": "富山地方鉄道", "lon": 137.20984, "lat": 36.695728, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.20984, 36.695728 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "丸の内", "shubetsu": "富山地方鉄道", "lon": 137.208896, "lat": 36.692563, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.208896, 36.692563 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "諏訪川原", "shubetsu": "富山地方鉄道", "lon": 137.206535, "lat": 36.692322, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.206535, 36.692322 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "安野屋", "shubetsu": "富山地方鉄道", "lon": 137.201772, "lat": 36.692838, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.201772, 36.692838 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "トヨタモビリティ富山 Gスクエア五福前", "shubetsu": "富山地方鉄道", "lon": 137.19542, "lat": 36.694834, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.19542, 36.694834 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山軌道線", "company": "富山地方鉄道", "station_name": "富山大学前", "shubetsu": "富山地方鉄道", "lon": 137.191129, "lat": 36.698688, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.191129, 36.698688 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "富山駅", "shubetsu": "富山地方鉄道", "lon": 137.2128801, "lat": 36.70161021, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.2128801, 36.70161021 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "オークスカナルパークホテル富山前", "shubetsu": "富山地方鉄道", "lon": 137.214674, "lat": 36.70374619, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.214674, 36.70374619 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "インテック本社前", "shubetsu": "富山地方鉄道", "lon": 137.216685, "lat": 36.703556, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.216685, 36.703556 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "龍谷富山高校前（永楽町）", "shubetsu": "富山地方鉄道", "lon": 137.2196761, "lat": 36.70295962, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.219676099999987, 36.70295962 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "奥田中学校前", "shubetsu": "富山地方鉄道", "lon": 137.223637, "lat": 36.703522, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.223637, 36.703522 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "下奥井", "shubetsu": "富山地方鉄道", "lon": 137.224478, "lat": 36.711311, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.224478, 36.711311 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "粟島（大阪屋ショップ前）", "shubetsu": "富山地方鉄道", "lon": 137.224796, "lat": 36.719391, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.224796, 36.719391 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "越中中島", "shubetsu": "富山地方鉄道", "lon": 137.224844, "lat": 36.722121, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.224844, 36.722121 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "城川原", "shubetsu": "富山地方鉄道", "lon": 137.226082, "lat": 36.731103, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.226082, 36.731103 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "犬島新町", "shubetsu": "富山地方鉄道", "lon": 137.22662, "lat": 36.735445, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.22662, 36.735445 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "蓮町（馬場記念公園前）", "shubetsu": "富山地方鉄道", "lon": 137.227463, "lat": 36.742663, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.227463, 36.742663 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "萩浦小学校前", "shubetsu": "富山地方鉄道", "lon": 137.228643, "lat": 36.748602, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.228643, 36.748602 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "東岩瀬", "shubetsu": "富山地方鉄道", "lon": 137.230479, "lat": 36.751935, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.230479, 36.751935 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "競輪場前", "shubetsu": "富山地方鉄道", "lon": 137.233907, "lat": 36.757454, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.233907, 36.757454 ] } },
+    { "type": "Feature", "properties": { "N02_001": 21, "N02_002": 2, "line": "富山港線", "company": "富山地方鉄道", "station_name": "岩瀬浜", "shubetsu": "富山地方鉄道", "lon": 137.23409, "lat": 36.761212, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.23409, 36.761212 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 3, "line": "あいの風とやま鉄道線", "company": "あいの風とやま鉄道", "station_name": "高岡やぶなみ", "shubetsu": "あいの風とやま鉄道", "lon": 136.988889, "lat": 36.737528, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 136.988889, 36.737528 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 3, "line": "あいの風とやま鉄道線", "company": "あいの風とやま鉄道", "station_name": "小杉", "shubetsu": "あいの風とやま鉄道", "lon": 137.092767, "lat": 36.720947, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.092767, 36.720947 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 3, "line": "あいの風とやま鉄道線", "company": "あいの風とやま鉄道", "station_name": "呉羽", "shubetsu": "あいの風とやま鉄道", "lon": 137.164874, "lat": 36.718845, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.164874, 36.718845 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 3, "line": "あいの風とやま鉄道線", "company": "あいの風とやま鉄道", "station_name": "富山", "shubetsu": "あいの風とやま鉄道", "lon": 137.213091, "lat": 36.701384, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.213091, 36.701384 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 3, "line": "あいの風とやま鉄道線", "company": "あいの風とやま鉄道", "station_name": "東富山", "shubetsu": "あいの風とやま鉄道", "lon": 137.248953, "lat": 36.741589, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.248953, 36.741589 ] } },
+    { "type": "Feature", "properties": { "N02_001": 12, "N02_002": 3, "line": "あいの風とやま鉄道線", "company": "あいの風とやま鉄道", "station_name": "水橋", "shubetsu": "あいの風とやま鉄道", "lon": 137.298404, "lat": 36.743454, "field_9": null, "field_10": null, "field_11": null, "field_12": null, "field_13": null, "field_14": null, "field_15": null, "field_16": null, "field_17": null, "field_18": null }, "geometry": { "type": "Point", "coordinates": [ 137.298404, 36.743454 ] } }
     ]
-}
+    }
+    
