@@ -1,6 +1,18 @@
+# 富山市版保育園マップについて
+富山市内に点在する保育所（認可、認可外）、幼稚園の位置・定員情報をマッピングした地図を作成しています。
 
+## 利用している地図について
+以下の地図から選択可能です。
+- OpenStreetMap
+- MIERUNE地図
+- 地理院地図
+- Bing Maps API
 
-# (以下オリジナル版)
+## 提供されるデータについて
+富山市、富山県のオープンデータを利用し、Code for Toyama City で独自のCSVファイルを作成、GeoJSONに変換して利用しています。詳しくは、以下のページをご覧ください。<BR>
+https://github.com/codefortoyama/papamama/blob/master/doc/README.md
+
+# (以下に本プロジェクトの元となったCode for Sapporo版のドキュメント)
 
 # さっぽろパパママMAPについて
 
