@@ -27,6 +27,8 @@
     - Bing Maps API
 
 # 本サイト並びにデータについてお問い合わせ
+本サイトは、Code for Toyama Cityが運用しています。サイトおよびデータについては、以下の問い合わせフォーム、メールにてご連絡ください。<BR>
+データ掲載元(富山市、富山県、駅データ.jp、地図データ提供元への直接のお問い合わせはご遠慮ください。)
 - 問い合わせフォーム
     - https://forms.office.com/Pages/ResponsePage.aspx?id=LlgJj6Pxck6GBe4nQh0OwyE_HJZpJFlPoHdUGICing5UQ09MOVEyVzUzOUNPOTkxSzYxTDBFS01UQS4u
 - メール
