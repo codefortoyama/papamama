@@ -356,13 +356,6 @@ Papamamap.prototype.getPopupContent = function(feature)
         content += '</td>';
         content += '</tr>';
     }
-    var memo = feature.get('備考') ? feature.get('備考') : feature.get('Memo');
-    if (memo !== undefined && memo !== null) {
-        content += '<tr>';
-        content += '<th></th>';
-        content += '<td>' + memo + '</td>';
-        content += '</tr>';
-    }
     var temp    = feature.get('一時') ? feature.get('一時') : feature.get('Temp');
     var holiday = feature.get('休日') ? feature.get('休日') : feature.get('holiday');
     var night   = feature.get('夜間') ? feature.get('夜間') : feature.get('Night');
@@ -450,6 +443,13 @@ Papamamap.prototype.getPopupContent = function(feature)
         content += '<tr>';
         content += '<th>設置者</th>';
         content += '<td>' + owner + '</td>';
+        content += '</tr>';
+    }
+    var memo = feature.get('備考') ? feature.get('備考') : feature.get('Memo');
+    if (memo !== undefined && memo !== null) {
+        content += '<tr>';
+        content += '<th></th>';
+        content += '<td>' + memo + '</td>';
         content += '</tr>';
     }
     content += '</tbody></table>';
