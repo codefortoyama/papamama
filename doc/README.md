@@ -13,7 +13,8 @@
 - 富山市（保育施設、小学校、中学校）
     - インフォマップとやま＿施設情報マップ＿教育・育児関連施設
     https://opdt.city.toyama.lg.jp/dataset/38ff45a3-5560-4473-8686-ad170f64125c/resource/1ee1253f-d960-4105-aa31-246210ee1d59/download/intfs01.int.toyama-city.localredirect111015downloads10gakkokyoikusisetu.xlsx
-
+- 一部の保育所データは、「育さぽとやま」のWEBサイトから引用しております。
+- 
 - 富山県 
     - 認可保育所・幼保連携型認定こども園
     https://www.pref.toyama.jp/1201/kurashi/kyouiku/kosodate/shienshisetsu/kj00008086.html
